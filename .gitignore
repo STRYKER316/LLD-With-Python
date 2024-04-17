@@ -2,3 +2,6 @@
 LLD1
 LLD2
 LLD3
+
+# bytecode
+*.pyc
