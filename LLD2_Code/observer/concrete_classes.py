@@ -1,8 +1,8 @@
-from interfaces import Observable, ObserverInterface
+from interfaces import ObservableInterface, ObserverInterface
 
 
 # Implementation of the Observable interface
-class BitcoinTracker(Observable):
+class BitcoinTracker(ObservableInterface):
     def __init__(self):
         self._price = 0
         self._observers = []

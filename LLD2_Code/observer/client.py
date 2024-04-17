@@ -12,3 +12,7 @@ def main():
 
     # Change the state of the observable -> This will trigger a Email notification to the observers
     bitcoin_tracker.set_price(10000)
+
+
+if __name__ == "__main__":
+    main()
